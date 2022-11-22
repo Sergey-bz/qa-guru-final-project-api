@@ -8,11 +8,11 @@ repositories {
     mavenCentral()
 }
 
-def restAssuredVersion = "5.1.1",
-    junitVersion = "5.8.2",
-    jacksonVersion = "2.13.4",
+def restAssuredVersion = "5.3.0",
+    junitVersion = "5.9.0",
+    jacksonVersion = "2.14.0",
     allureVersion = "2.20.0",
-    ownerVersion = "1.0.4"
+    ownerVersion = "1.0.12"
 
 allure {
     report {
