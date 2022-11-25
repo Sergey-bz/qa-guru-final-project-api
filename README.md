@@ -27,7 +27,6 @@
 </p>
 
 Автотесты написаны на <code>Java</code> с использованием <code>JUnit 5</code> и <code>Gradle</code>.
-
 Также реализована сборка в <code>Jenkins</code> с формированием Allure-отчета и отправкой уведомления с результатами в <code>Telegram</code> после завершения прогона.
 Тестовая модель хранится в Allure TestOps и формируется автоматически на основе выгрузки результатов автотестов.
 
@@ -43,12 +42,11 @@ gradle clean test
 
 ```
 clean test
-
 ```
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
 
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_final_project_ui_Sviridov/">Ссылка на сборку в Jenkins</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_final_project_api_Sviridov//">Ссылка на сборку в Jenkins</a>
 
 <p align="center">
 <img title="Jenkins Build" src="images/screenshots/jenkinsBuild.png">
@@ -69,7 +67,7 @@ clean test
 
 ## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="images/logo/Allure_TestOps.svg"> Интеграция с Allure TestOps
 
-> <a target="_blank" href="https://allure.autotests.cloud/project/1699/dashboards">Ссылка на проект</a>
+> <a target="_blank" href="https://allure.autotests.cloud/project/1704/dashboards">Ссылка на проект</a>
 
 Полная статистика о прохождении тестов, отчеты и результаты прогонов хранятся в Allure TestOps. Тестовая модель формируется автоматически на основе выгрузки результатов автотестов
 
