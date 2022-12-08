@@ -6,9 +6,9 @@ import io.restassured.specification.RequestSpecification;
 
 import static in.reqres.autotests.helpers.CustomApiListener.withCustomTemplates;
 
-public class UserSpecs {
+public class UserSpecs extends BaseSpec {
 
-    private static final String BASE_URI = "https://reqres.in/";
+    private static final String BASE_URI = getUrl();
 
     public static RequestSpecification singleUserRequestSpec =
             new RequestSpecBuilder()
